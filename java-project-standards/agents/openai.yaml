@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Project Standards"
+  short_description: "Enforce layered Java project and coding standards"
+  default_prompt: "Use $java-project-standards to review this Java project for layering, naming, dependency, database, logging, testing, and security issues."
