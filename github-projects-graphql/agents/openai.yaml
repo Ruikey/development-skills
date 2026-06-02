@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Projects GraphQL"
+  short_description: "Manage GitHub Projects v2 with gh GraphQL"
+  default_prompt: "Use GitHub Projects GraphQL to inspect or manage project boards, fields, issues, and item statuses."

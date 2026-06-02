@@ -9,6 +9,10 @@ installed independently.
 ```text
 development-skills/
 ├── README.md
+├── github-projects-graphql/
+│   ├── SKILL.md
+│   └── agents/
+│       └── openai.yaml
 ├── java-project-standards/
 │   ├── SKILL.md
 │   ├── agents/
@@ -23,6 +27,7 @@ development-skills/
 
 | Skill | Purpose |
 | --- | --- |
+| `github-projects-graphql` | Manages GitHub Projects v2 through `gh api graphql`, including querying projects, fields, items, adding repository issues to projects, and updating project item status fields. |
 | `java-project-standards` | Enforces Alibaba-style Java coding standards, layered architecture constraints, dependency rules, database conventions, logging, testing, and security checks for Java/JVM backend projects. |
 
 ## Skill conventions
@@ -64,6 +69,7 @@ To use a skill locally, sync or copy the skill directory into the Codex skills d
 your environment, for example:
 
 ```text
+$CODEX_HOME/skills/github-projects-graphql/
 $CODEX_HOME/skills/java-project-standards/
 ```
 
